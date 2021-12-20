@@ -19,3 +19,14 @@ Enter the height: 3
 """
 
 #write your code here 
+
+
+base = int(input("What is the base of the rectangle?  " ))
+height = int(input("What is the height of the rectange?  "))
+
+basepart= ('*' * base)
+
+print("")
+
+for i in range(1, height+1):
+  print(basepart)

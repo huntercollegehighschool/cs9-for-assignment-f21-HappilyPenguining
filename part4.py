@@ -40,3 +40,19 @@ fizz
 """
 
 # write your code here 
+
+number = int(input("How far do you want to fizzbuzz? "))
+
+tobeprinted = ""
+
+for i in range(1, number + 1):
+  tobeprinted = ""
+  if(i%15 == 0):
+    tobeprinted += "fizzbuzz"
+  elif (i % 3 == 0):
+    tobeprinted += "fizz"
+  elif(i%5 == 0):
+    tobeprinted += "buzz"
+  else:
+    tobeprinted = i
+  print(tobeprinted)
